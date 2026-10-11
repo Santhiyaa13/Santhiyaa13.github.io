@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Santhiya K | Data Analyst & AI Portfolio</title>
+<meta name="description" content="Portfolio of Santhiya K, a data analyst with an AI edge. SQL, Python, Power BI, ETL pipelines and machine learning projects. Open to entry-level roles.">
+<meta name="theme-color" content="#0a0e14">
+<meta property="og:title" content="Santhiya K | Data Analyst & AI Portfolio">
+<meta property="og:description" content="SQL, Python, Power BI, ETL and ML projects. Open to entry-level data, business analyst and Python/SQL roles.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230a0e14'/%3E%3Ctext x='32' y='43' font-family='monospace' font-size='30' font-weight='700' text-anchor='middle' fill='%237cf0c9'%3ESK%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="bg" aria-hidden="true"></canvas>
+
+<header class="nav" id="nav">
+  <a href="#home" class="logo">SK<span>.</span></a>
+  <button class="burger" id="burger" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span></button>
+  <nav id="menu">
+    <a href="#about">About</a><a href="#skills">Skills</a><a href="#experience">Experience</a>
+    <a href="#projects">Projects</a><a href="#education">Education</a><a href="#contact">Contact</a>
+  </nav>
+  <div class="nav-actions">
+    <button class="icon-btn" id="theme" aria-label="Toggle light and dark theme" title="Toggle theme">◐</button>
+    <a class="btn small" href="assets/Santhiya_K_Resume.pdf" download>Resume</a>
+  </div>
+</header>
+
+<main>
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="badge"><i></i> Open to work in any location</span>
+      <h1>Hi, I'm <span class="grad">Santhiya K.</span></h1>
+      <p class="typed-line">I'm a <span id="typed"></span><span class="caret">|</span></p>
+      <p class="lead">I turn messy data into clear decisions. SQL, Python and Power BI for the analysis, and an AI and machine learning toolkit for going further. Computer Science graduate, builder of dashboards, ETL pipelines and models.</p>
+      <div class="cta">
+        <a class="btn" href="#projects">View my projects →</a>
+        <a class="btn ghost" href="assets/Santhiya_K_Resume.pdf" download>Download resume</a>
+        <a class="btn ghost" href="#contact">Hire me</a>
+      </div>
+      <div class="socials">
+        <a href="https://github.com/Santhiyaa13" target="_blank" rel="noopener">GitHub</a>
+        <a href="#" data-link="linkedin" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="#" data-link="leetcode" target="_blank" rel="noopener">LeetCode</a>
+        <a href="mailto:ksanthiya205@gmail.com">Email</a>
+      </div>
+    </div>
+    <aside class="hero-card" aria-label="Profile snapshot">
+      <div class="dots"><i></i><i></i><i></i><span>profile.py</span></div>
+<pre><code><span class="k">class</span> <span class="f">Santhiya</span>:
+    role     = <span class="s">"Data Analyst · AI-curious"</span>
+    degree   = <span class="s">"B.Tech CSBS, SRM IST"</span>
+    cgpa     = <span class="n">8.70</span>
+    stack    = [<span class="s">"SQL"</span>, <span class="s">"Python"</span>,
+                <span class="s">"Power BI"</span>, <span class="s">"Excel"</span>]
+    ai       = [<span class="s">"scikit-learn"</span>, <span class="s">"TensorFlow"</span>,
+                <span class="s">"CNN"</span>, <span class="s">"OpenCV"</span>]
+    status   = <span class="s">"Open to work"</span>
+
+    <span class="k">def</span> <span class="f">next_step</span>(self):
+        <span class="k">return</span> <span class="s">"Your data team 🙂"</span></code></pre>
+    </aside>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="sec">
+  <div class="wrap">
+    <p class="eyebrow reveal">01 / About</p>
+    <h2 class="reveal">Analyst mindset, engineer's toolkit.</h2>
+    <div class="about-grid">
+      <div class="reveal">
+        <p>I'm a 2026 B.Tech graduate in Computer Science and Business Systems from SRM Institute of Science and Technology, with a CGPA of 8.70. My degree sits between technology and business, which is exactly where data analysis lives.</p>
+        <p>I enjoy the full journey of a dataset: pulling it from an API or Excel files, cleaning and validating it, finding the story with SQL and Python, and presenting it in dashboards that people can actually use. Most of my recent work is on financial data: mutual funds, NIFTY100 stocks, investor behaviour and risk metrics.</p>
+        <p>Alongside analytics I work with AI and machine learning: clustering, CNNs and recommender systems. I'm looking for an entry-level role in data analytics, business analysis, data operations or Python/SQL development, where I can keep learning and ship useful work.</p>
+      </div>
+      <div class="facts reveal">
+        <h3>Quick facts</h3>
+        <ul>
+          <li><span>Based in</span> Pondicherry / Chennai, India</li>
+          <li><span>Education</span> B.Tech CSBS, SRM IST (2026)</li>
+          <li><span>Learning</span> Data Analytics with AI (NIIT)</li>
+          <li><span>Open to</span> Full-time, internships, remote, relocation</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="sec alt">
+  <div class="wrap">
+    <p class="eyebrow reveal">02 / Skills</p>
+    <h2 class="reveal">What I work with.</h2>
+    <div class="tabs reveal" role="tablist">
+      <button class="tab active" data-tab="analysis" role="tab">Data Analysis</button>
+      <button class="tab" data-tab="bi" role="tab">BI & Visualisation</button>
+      <button class="tab" data-tab="eng" role="tab">Data Engineering</button>
+      <button class="tab" data-tab="ai" role="tab">AI & ML</button>
+      <button class="tab" data-tab="tools" role="tab">Tools & Web</button>
+    </div>
+    <div class="panels reveal">
+      <div class="panel show" id="p-analysis">
+        <div class="chip"><b>Python</b><small>Pandas, NumPy, SciPy for cleaning and analysis</small></div>
+        <div class="chip"><b>SQL</b><small>MySQL and SQLite: joins, aggregates, query optimisation</small></div>
+        <div class="chip"><b>Excel</b><small>Pivot tables, formulas, dashboards</small></div>
+        <div class="chip"><b>EDA</b><small>Outliers, nulls, distributions, multivariate insights</small></div>
+        <div class="chip"><b>Statistics</b><small>Descriptive stats, correlation, risk measures</small></div>
+        <div class="chip"><b>Data cleaning</b><small>Validation rules, deduplication, normalisation</small></div>
+      </div>
+      <div class="panel" id="p-bi">
+        <div class="chip"><b>Power BI</b><small>DAX, drill-through, slicers, themed multi-page dashboards</small></div>
+        <div class="chip"><b>Matplotlib / Seaborn</b><small>Statistical plots</small></div>
+        <div class="chip"><b>Plotly</b><small>Interactive charts</small></div>
+        <div class="chip"><b>Streamlit</b><small>Interactive Python dashboards</small></div>
+        <div class="chip"><b>Excel dashboards</b><small>KPI views and charts</small></div>
+      </div>
+      <div class="panel" id="p-eng">
+        <div class="chip"><b>ETL pipelines</b><small>Loader, normaliser, validator modules</small></div>
+        <div class="chip"><b>Schema design</b><small>Relational design, foreign keys, SQLite</small></div>
+        <div class="chip"><b>Data validation</b><small>Rule-based checks with audit logs</small></div>
+        <div class="chip"><b>REST APIs & JSON</b><small>Live data ingestion (mfapi.in)</small></div>
+        <div class="chip"><b>Testing</b><small>Unit tests for data pipelines</small></div>
+      </div>
+      <div class="panel" id="p-ai">
+        <div class="chip ai"><b>scikit-learn</b><small>K-Means, hierarchical clustering, preprocessing</small></div>
+        <div class="chip ai"><b>TensorFlow</b><small>CNN image classification</small></div>
+        <div class="chip ai"><b>OpenCV</b><small>Image processing for classification</small></div>
+        <div class="chip ai"><b>Recommender systems</b><small>Risk-based fund recommender, product recommendations</small></div>
+        <div class="chip ai"><b>Data Analytics with AI</b><small>NIIT program</small></div>
+      </div>
+      <div class="panel" id="p-tools">
+        <div class="chip"><b>Git & GitHub</b><small>Version control, project repos</small></div>
+        <div class="chip"><b>Jupyter</b><small>Notebook-based analysis and reporting</small></div>
+        <div class="chip"><b>MySQL Workbench</b><small>Query development</small></div>
+        <div class="chip"><b>HTML / CSS / JavaScript</b><small>Responsive websites</small></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience" class="sec">
+  <div class="wrap">
+    <p class="eyebrow reveal">03 / Experience</p>
+    <h2 class="reveal">Where I've worked.</h2>
+    <div class="timeline">
+      <article class="tl reveal">
+        <time>Sep 2026 – Oct 2026</time>
+        <h3>Data Analyst Intern <span>· Bluestock Fintech (Remote, 2-month internship)</span></h3>
+        <ul>
+          <li>Built an Excel dashboard and a Power BI dashboard to track KPIs and trends from financial datasets.</li>
+          <li>Cleaned and transformed raw data in Python, wrote SQL queries, and documented findings in an EDA report.</li>
+          <li>Developed a Mutual Fund Analytics project across 40 schemes: live NAV ingestion via API and a 4-page Power BI dashboard.</li>
+          <li>Calculated VaR/CVaR and rolling Sharpe ratios, analysed investor cohorts and SIP continuity, and built a risk-based fund recommender.</li>
+        </ul>
+        <div class="tags"><i>Power BI</i><i>SQL</i><i>Python</i><i>Excel</i><i>EDA</i></div>
+      </article>
+      <article class="tl reveal">
+        <time>Dec 2023</time>
+        <h3>Web Development & Python Intern <span>· Nexgen Technology</span></h3>
+        <ul>
+          <li>Built a responsive website using HTML, CSS and Python, focusing on structure, styling and mobile responsiveness.</li>
+        </ul>
+        <div class="tags"><i>HTML</i><i>CSS</i><i>Python</i></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="sec alt">
+  <div class="wrap">
+    <p class="eyebrow reveal">04 / Projects</p>
+    <h2 class="reveal">Things I've built.</h2>
+    <div class="filters reveal" id="filters">
+      <button class="fbtn active" data-f="all">All</button>
+      <button class="fbtn" data-f="analytics">Data Analytics</button>
+      <button class="fbtn" data-f="sql">Python & SQL</button>
+      <button class="fbtn" data-f="ai">AI / ML</button>
+    </div>
+    <div class="cards" id="cards">
+
+      <article class="card reveal" data-cat="analytics ai">
+        <div class="card-top"><span class="pill">Fintech · Analytics</span><span class="num">01</span></div>
+        <h3>Mutual Fund Analytics & Risk Dashboard</h3>
+        <p class="prob"><b>Problem:</b> Investors compare funds on returns alone and ignore risk, concentration and investing behaviour.</p>
+        <p><b>What I did:</b> Ingested live NAV data from the mfapi.in API for 40 schemes, built a 4-page Power BI dashboard (Industry Overview, Fund Performance, Investor Analytics, SIP & Market Trends), and calculated historical VaR/CVaR and rolling 90-day Sharpe ratios. Added investor cohort analysis, SIP continuity checks, sector concentration (HHI) and a fund recommender by risk appetite.</p>
+        <div class="tags"><i>Python</i><i>Power BI</i><i>Pandas</i><i>REST API</i><i>Risk metrics</i></div>
+        <div class="links"><a href="https://github.com/Santhiyaa13/mf-analytics" target="_blank" rel="noopener">Code ↗</a></div>
+      </article>
+
+      <article class="card reveal" data-cat="sql analytics">
+        <div class="card-top"><span class="pill">Data Engineering</span><span class="num">02</span></div>
+        <h3>NIFTY100 Financial Data ETL Pipeline</h3>
+        <p class="prob"><b>Problem:</b> Financial data arrives as many Excel files with inconsistent quality and cannot be queried reliably.</p>
+        <p><b>What I did:</b> Built a validated SQLite database of 10+ tables from 12 source files, covering 92 companies and 5,500+ price records. Wrote loader, normaliser and validator modules with 16 data-quality rules, audit logs for rejected rows, and 35+ unit tests.</p>
+        <div class="tags"><i>Python</i><i>SQLite</i><i>Pandas</i><i>Unit testing</i><i>Schema design</i></div>
+        <div class="links"><a href="#" data-link="nifty100" target="_blank" rel="noopener">Code ↗</a></div>
+      </article>
+
+      <article class="card reveal" data-cat="ai analytics">
+        <div class="card-top"><span class="pill">Machine Learning</span><span class="num">03</span></div>
+        <h3>Customer Segmentation & Recommendation System</h3>
+        <p class="prob"><b>Problem:</b> One-size-fits-all marketing ignores differences between customer groups.</p>
+        <p><b>What I did:</b> Preprocessed customer behaviour data, engineered features, compared K-Means and Hierarchical Clustering to find segments, and generated personalised product recommendations for each segment.</p>
+        <div class="tags"><i>Python</i><i>scikit-learn</i><i>K-Means</i><i>Pandas</i></div>
+        <div class="links"><a href="#" data-link="segmentation" target="_blank" rel="noopener">Code ↗</a></div>
+      </article>
+
+      <article class="card reveal" data-cat="ai">
+        <div class="card-top"><span class="pill">Deep Learning</span><span class="num">04</span></div>
+        <h3>Malware Detection with Ensemble Learning</h3>
+        <p class="prob"><b>Problem:</b> Signature-based malware detection misses new variants.</p>
+        <p><b>What I did:</b> Converted malware binaries into grayscale images across 25+ families and trained a CNN that reached 94.47% classification accuracy, treating malware detection as an image classification problem.</p>
+        <div class="tags"><i>TensorFlow</i><i>CNN</i><i>OpenCV</i><i>Python</i></div>
+        <div class="links"><a href="#" data-link="malware" target="_blank" rel="noopener">Code ↗</a></div>
+      </article>
+
+      <article class="card reveal" data-cat="analytics sql">
+        <div class="card-top"><span class="pill">EDA · Dashboard</span><span class="num">05</span></div>
+        <h3>Social Media Engagement Analysis</h3>
+        <p class="prob"><b>Problem:</b> Which platforms, topics and post types drive engagement and virality?</p>
+        <p><b>What I did:</b> Cleaned a social media dataset (platform, topic, sentiment, views, likes, shares), ran EDA, compared manual analysis with automated profiling (Sweetviz), and built an interactive Streamlit dashboard.</p>
+        <div class="tags"><i>Python</i><i>Pandas</i><i>Sweetviz</i><i>Streamlit</i></div>
+        <div class="links"><a href="#" data-link="social" target="_blank" rel="noopener">Code ↗</a></div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY (auto-hides if no images are added) -->
+<section id="gallery" class="sec" hidden>
+  <div class="wrap">
+    <p class="eyebrow reveal">05 / Dashboards</p>
+    <h2 class="reveal">A look at the work.</h2>
+    <div class="gallery" id="galleryGrid">
+      <figure><img src="assets/dashboard-1.png" alt="Dashboard screenshot 1" loading="lazy"><figcaption>Industry overview</figcaption></figure>
+      <figure><img src="assets/dashboard-2.png" alt="Dashboard screenshot 2" loading="lazy"><figcaption>Fund performance</figcaption></figure>
+      <figure><img src="assets/dashboard-3.png" alt="Dashboard screenshot 3" loading="lazy"><figcaption>Investor analytics</figcaption></figure>
+      <figure><img src="assets/dashboard-4.png" alt="Dashboard screenshot 4" loading="lazy"><figcaption>SIP & market trends</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education" class="sec alt">
+  <div class="wrap">
+    <p class="eyebrow reveal">06 / Education & Certifications</p>
+    <h2 class="reveal">Learning, formally and otherwise.</h2>
+    <div class="edu-grid">
+      <div class="reveal">
+        <div class="edu"><time>Graduated 2026</time><h3>B.Tech, Computer Science and Business Systems</h3><p>SRM Institute of Science and Technology, Ramapuram, Chennai</p><b class="score">CGPA 8.70 / 10</b></div>
+        <div class="edu"><time>School</time><h3>Higher Secondary (12th)</h3><p>Amalorpavam Higher Secondary School, Pondicherry</p><b class="score">80.5%</b></div>
+      </div>
+      <div class="certs reveal">
+        <div class="cert"><b>Data Analytics with Generative AI</b><span>NIIT</span></div>
+        <div class="cert"><b>Data Analytics Job Simulation</b><span>Deloitte Australia · Forage</span></div>
+        <div class="cert"><b>Responsive Web Design Developer</b><span>freeCodeCamp</span></div>
+        <div class="cert"><b>DSA Bootcamp</b><span>Unstop</span></div>
+        <div class="cert"><b>JavaScript with HTML</b><span>SRM IST</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="sec alt">
+  <div class="wrap contact-one">
+    <div class="reveal">
+      <p class="eyebrow">07 / Contact</p>
+      <h2>Let's build something with data.</h2>
+      <p class="lead">I'm open to entry-level roles and internships in data analytics, business analysis, data operations and Python/SQL development. Remote, hybrid or relocation, all fine.</p>
+      <ul class="contact-list">
+        <li><span>Email</span><a href="mailto:ksanthiya205@gmail.com">ksanthiya205@gmail.com</a></li>
+        <li><span>Phone</span><a href="tel:+918220059740">+91 82200 59740</a></li>
+        <li><span>GitHub</span><a href="https://github.com/Santhiyaa13" target="_blank" rel="noopener">github.com/Santhiyaa13</a></li>
+        <li><span>LinkedIn</span><a href="#" data-link="linkedin" target="_blank" rel="noopener">View profile</a></li>
+      </ul>
+      <div class="cta" style="margin-top:26px">
+        <a class="btn" href="mailto:ksanthiya205@gmail.com">Email me →</a>
+        <a class="btn ghost" href="assets/Santhiya_K_Resume.pdf" download>Download resume</a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap foot">
+    <span>© <span id="year"></span> Santhiya K. Designed & built by hand.</span>
+    <a href="#home">Back to top ↑</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
